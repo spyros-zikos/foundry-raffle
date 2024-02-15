@@ -84,11 +84,11 @@ You'll want to set your `SEPOLIA_RPC_URL` and `PRIVATE_KEY` as environment varia
 
 Optionally, add your `ETHERSCAN_API_KEY` if you want to verify your contract on [Etherscan](https://etherscan.io/).
 
-1. Get testnet ETH
+2. Get testnet ETH
 
 Head over to [faucets.chain.link](https://faucets.chain.link/) and get some testnet ETH. You should see the ETH show up in your metamask.
 
-2. Deploy
+3. Deploy
 
 ```
 make deploy ARGS="--network sepolia"
@@ -96,7 +96,7 @@ make deploy ARGS="--network sepolia"
 
 This will setup a ChainlinkVRF Subscription for you. If you already have one, update it in the `scripts/HelperConfig.s.sol` file. It will also automatically add your contract as a consumer.
 
-3. Register a Chainlink Automation Upkeep
+4. Register a Chainlink Automation Upkeep
 
 [You can follow the documentation if you get lost.](https://docs.chain.link/chainlink-automation/compatible-contracts)
 
