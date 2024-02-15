@@ -74,7 +74,7 @@ forge coverage
 
 # Deployment to a testnet or mainnet
 
-deployed raffle contract address on sepolia: 0x15F50a78e0DeD6a07600BE2054Eb581fBDc535cD
+Deployed raffle contract address on sepolia: 0x15F50a78e0DeD6a07600BE2054Eb581fBDc535cD
 
 1. Setup environment variables
 
